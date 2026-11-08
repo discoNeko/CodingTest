@@ -2,6 +2,27 @@
 
 アルゴリズムに関するインタビュー
 
+問題文と解答方針は言語に依存しない書き方にしている。参考実装は JavaScript だが、受験者は好きな言語で解いてよい。
+進め方と評価基準は [InterviewGuide](../InterviewGuide/README.md) を参照。
+
+## カテゴリ一覧
+
+| カテゴリ | 詳細のある問題 |
+|---|---|
+| [Array](Array/README.md) | [MissingNumber](Array/MissingNumber.md) ★、[PairsWithSum](Array/PairsWithSum.md) ★★ |
+| [LinkedList](LinkedList/README.md) | [FindMiddle](LinkedList/FindMiddle.md) ★、[DetectCycle](LinkedList/DetectCycle.md) ★★ |
+| [String](String/README.md) | [Anagram](String/Anagram.md) ★、[IsRotation](String/IsRotation.md) ★★ |
+| [BinaryTree](BinaryTree/README.md) | [CountLeaves](BinaryTree/CountLeaves.md) ★、[InorderIterative](BinaryTree/InorderIterative.md) ★★ |
+| [StackQueue](StackQueue/README.md) | [ValidParentheses](StackQueue/ValidParentheses.md) ★、[QueueWithStacks](StackQueue/QueueWithStacks.md) ★★ |
+| [Sort](Sort/README.md) | [MergeSort](Sort/MergeSort.md) ★★、[QuickSort](Sort/QuickSort.md) ★★ |
+| [Search](Search/README.md) | [BinarySearch](Search/BinarySearch.md) ★、[GridShortestPath](Search/GridShortestPath.md) ★★ |
+| [DynamicProgramming](DynamicProgramming/README.md) | [ClimbingStairs](DynamicProgramming/ClimbingStairs.md) ★、[EditDistance](DynamicProgramming/EditDistance.md) ★★★ |
+| [Misc](Misc/README.md) | - |
+
+各カテゴリの README に、詳細のない問題も含めた一覧（難易度・目標計算量）がある。
+
+詳細ページの構成: 問題 / 入出力例 / ヒント（段階的に出す） / 解答方針と計算量 / 参考実装 / 深掘り質問
+
 ## Sample Theme (Standard)
 
 * 配列（検索、追加、削除）
