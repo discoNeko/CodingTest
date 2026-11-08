@@ -1,14 +1,11 @@
 # Misc
 
-## Sample Questions
+## 問題一覧
 
-* How is a bubble sort algorithm implemented?
-* How is an iterative quicksort algorithm implemented?
-* How do you implement an insertion sort algorithm?
-* How is a merge sort algorithm implemented?
-* How do you implement a bucket sort algorithm?
-* How do you implement a counting sort algorithm?
-* How is a radix sort algorithm implemented?
-* How do you swap two numbers without using the third variable?
-* How do you check if two rectangles overlap with each other?
-* How do you design a vending machine?
+| 問題 | 難易度 | 目標計算量 | 詳細 |
+|---|---|---|---|
+| 3つ目の変数を使わずに、2つの数を入れ替える | ★ | O(1) | |
+| 2つの長方形が重なっているか判定する | ★ | O(1) | |
+| 自動販売機を設計する（クラス設計・状態遷移） | ★★★ | - | |
+
+ソートに関する問題は [Sort](../Sort/README.md) に移した。
