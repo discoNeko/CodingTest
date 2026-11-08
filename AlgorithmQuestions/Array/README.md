@@ -1,14 +1,15 @@
 # Array
 
-## Sample Questions
+## 問題一覧
 
-* How do you find the missing number in a given integer array of 1 to 100?
-* How do you find the duplicate number on a given integer array?
-* How do you find the largest and smallest number in an unsorted integer array?
-* How do you find all pairs of an integer array whose sum is equal to a given number?
-* How do you find duplicate numbers in an array if it contains multiple duplicates?
-* How are duplicates removed from a given array in Java?
-* How is an integer array sorted in place using the quicksort algorithm?
-* How do you remove duplicates from an array in place?
-* How do you reverse an array in place in Java?
-* How are duplicates removed from an array without using any library?
+| 問題 | 難易度 | 目標計算量 | 詳細 |
+|---|---|---|---|
+| 1 から n までの整数のうち、1つだけ欠けた数を見つける | ★ | 時間 O(n) / 空間 O(1) | [MissingNumber](MissingNumber.md) |
+| 和が target になる2要素の組をすべて見つける | ★★ | 時間 O(n) | [PairsWithSum](PairsWithSum.md) |
+| 重複している数を1つ見つける | ★ | 時間 O(n) | |
+| 重複している数をすべて見つける | ★ | 時間 O(n) | |
+| ソートされていない配列から最大値と最小値を見つける | ★ | 時間 O(n) / 比較 約 1.5n 回 | |
+| ライブラリを使わずに重複を取り除く（ソート済みならその場で） | ★★ | 時間 O(n) / 空間 O(1) | |
+| 配列をその場で反転する | ★ | 時間 O(n) / 空間 O(1) | |
+
+ソートに関する問題は [Sort](../Sort/README.md) に移した。
