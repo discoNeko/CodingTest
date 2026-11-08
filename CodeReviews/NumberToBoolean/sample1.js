@@ -9,15 +9,15 @@ function total(nums){
     let prev = null
     let array = []
 
-    for (n of nums) {
+    for (const n of nums) {
         if (!prev || n > prev) {
             array.push(n)
         }
         prev = n
     }
 
-    for (n of array) {
-        if (n > 0) sum += n
+    for (const n of array) {
+        sum += n
     }
     return sum
 }
