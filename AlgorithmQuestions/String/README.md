@@ -1,16 +1,19 @@
 # String
 
-## Sample Questions
+## 問題一覧
 
-* How do you print duplicate characters from a string?
-* How do you check if two strings are anagrams of each other?
-* How do you print the first non-repeated character from a string?
-* How can a given string be reversed using recursion?
-* How do you check if a string contains only digits?
-* How are duplicate characters found in a string?
-* How do you count a number of vowels and consonants in a given string?
-* How do you count the occurrence of a given character in a string?
-* How do you find all permutations of a string?
-* How do you reverse words in a given sentence without using any library method?
-* How do you check if two strings are a rotation of each other?
-* How do you check if a given string is a palindrome?
+| 問題 | 難易度 | 目標計算量 | 詳細 |
+|---|---|---|---|
+| 2つの文字列がアナグラム（文字の並べ替え）か判定する | ★ | 時間 O(n) | [Anagram](Anagram.md) |
+| 2つの文字列が互いの回転か判定する | ★★ | 時間 O(n) | [IsRotation](IsRotation.md) |
+| 重複している文字を見つける | ★ | 時間 O(n) | |
+| 最初に現れる、繰り返されない文字を見つける | ★ | 時間 O(n) | |
+| 再帰を使って文字列を反転する | ★ | 時間 O(n) | |
+| 文字列が数字だけでできているか判定する | ★ | 時間 O(n) | |
+| 母音と子音の数を数える | ★ | 時間 O(n) | |
+| 指定した文字の出現回数を数える | ★ | 時間 O(n) | |
+| 回文か判定する | ★ | 時間 O(n) / 空間 O(1) | |
+| ライブラリを使わずに、文の単語の順序を反転する | ★★ | 時間 O(n) | |
+| 文字列のすべての順列を列挙する | ★★ | 時間 O(n · n!) | |
+
+文字列検索（力技、KMP 法、BM 法）は [Search](../Search/README.md) を参照。
