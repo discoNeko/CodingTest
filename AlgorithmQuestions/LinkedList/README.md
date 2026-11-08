@@ -1,12 +1,22 @@
 # LinkedList
 
-## Sample Questions
+問題で使うノードの定義（言語は問わない）:
 
-* How do you find the middle element of a singly linked list in one pass?
-* How do you check if a given linked list contains a cycle? How do you find the starting node of the cycle?
-* How do you reverse a linked list?
-* How do you reverse a singly linked list without recursion?
-* How are duplicate nodes removed in an unsorted linked list?
-* How do you find the length of a singly linked list?
-* How do you find the third node from the end in a singly linked list?
-* How do you find the sum of two linked lists using Stack?
+```
+Node {
+    value
+    next   // 次のノード。末尾なら null
+}
+```
+
+## 問題一覧
+
+| 問題 | 難易度 | 目標計算量 | 詳細 |
+|---|---|---|---|
+| 単方向リストの中央の要素を、1回の走査で見つける | ★ | 時間 O(n) / 空間 O(1) | [FindMiddle](FindMiddle.md) |
+| リストに循環があるかを判定し、循環の開始ノードを見つける | ★★ | 時間 O(n) / 空間 O(1) | [DetectCycle](DetectCycle.md) |
+| 単方向リストを反転する（再帰あり / なし） | ★ | 時間 O(n) / 空間 O(1) | |
+| ソートされていないリストから重複ノードを取り除く | ★ | 時間 O(n) | |
+| 単方向リストの長さを求める | ★ | 時間 O(n) | |
+| 末尾から k 番目のノードを、1回の走査で見つける | ★ | 時間 O(n) / 空間 O(1) | |
+| 各桁を表す2つのリストの和を、スタックを使って求める | ★★ | 時間 O(n + m) | |
